@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "--module-path",
+                "C:/Users/MARVELOUS HEAVENLY/OneDrive/Desktop/JAVA FX/javafx-sdk-21.0.7/lib",
+                "--add-modules",
+                "javafx.controls,javafx.fxml",
+                "*.java"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$javac"
+            ]
+        }
+    ]
+}

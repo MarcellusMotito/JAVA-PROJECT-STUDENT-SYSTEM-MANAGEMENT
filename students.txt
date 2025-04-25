@@ -1,0 +1,2 @@
+john,t786,Mathematics,70.0
+john,john,BSC,97.0
